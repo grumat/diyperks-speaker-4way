@@ -30,8 +30,7 @@ instead. Doing it this way results in speedy print times, as the filament only h
 
 A cheap and readily available option for this filler material is of course plaster of Paris, which can be added to water to make a paste that sets hard.
 
-It does have a problem for sound applications though, in that it's a very brittle material, giving it a ringing quality, a bit like a teacup.  
-This has the potential to sound worse than the plastic alone.
+It does have a problem for sound applications though, in that it's a very brittle material, giving it a ringing quality, a bit like a teacup. This has the potential to sound worse than the plastic alone.
 
 
 ### [Mixing PVA to Plaster of Paris](https://youtu.be/XEspOD1NHr0?t=96)
@@ -51,7 +50,7 @@ You see when a speaker driver moves back and forth it sends sound wav not only f
 
 An ideal enclosure is supposed to prevent these sound waves from escaping, which our solid enclosure now does a decent job of, but as these sound waves have nowhere else to go, they bounce around and eventually hit the back of the speaker driver again, coloring its output due to the time delay.
 
-This is less than ideal but adding soft materials to the inside of the enclosure is a good way to dampen these reflections.
+This is less than ideal but, adding soft materials to the inside of the enclosure is a good way to dampen these reflections.
 
 Here I'm going with some some soft automotive acoustic pads, followed by a folded layer of cotton towel and then some sheep's wool, which will all act together to stop the sound waves from being reflected back. And overall compared to our original thin enclosure we've gone from this to this.
 
@@ -74,13 +73,15 @@ Due to the time that this takes, it essentially delays the audibility of these r
 
 ### [Tang Band W3-1876S Subwoofer](https://youtu.be/XEspOD1NHr0?t=246)
 
-One notable subwoofer that's become somewhat of a legend in this configuration, mostly thanks to fellow YouTuber hexy base, is [this 3-in unit from Tang Band](https://www.parts-express.com/Tang-Band-W3-1876S-3-Mini-Subwoofer-264-909).  
+One notable subwoofer that's become somewhat of a legend in this configuration, mostly thanks to fellow YouTuber hexy base, is [this 3-in unit from Tang Band](https://www.tb-speaker.com/products/w3-1876s).  
 Despite its diminutive size, it should go down to the low 40 Hz range, which is insane for such a small driver. 
+
+![Tang Band W3-1876S 3" Mini Subwoofer](https://www.tb-speaker.com/uploads/images/cache/29740ba259c4df56ae4cbddc02776810-224-224-0-1-1.png)
 
 
 ### [Calculating the Bass Reflection Tube Dimensions](https://youtu.be/XEspOD1NHr0?t=264)
 
-Calculating the required dimensions for this to be done properly can be done with a piece of software called **Horn Rasp**, which can map out the predicted response, allowing us to get two key measurements: the tube length and the area of its cross-section. 
+Calculating the required dimensions for this to be done properly can be done with a piece of software called [Hornresp](https://www.diyaudio.com/community/threads/hornresp.119854/), which can map out the predicted response, allowing us to get two key measurements: the tube length and the area of its cross-section. 
 
 The 1.4 M length required for this is rather long, so it can be made into a folded configuration to make it more compact so that we can actually print it off with the 3D printer.
 
@@ -111,7 +112,7 @@ But uh to be honest, the solution is annoyingly obvious.
 
 You see in an effort to have enough room for the plaster of Paris to form good solid boundary walls throughout the speaker, including those surrounding the subwoofers port, I forgot to ask myself whether they were all necessary. 
 
-You see the whole point of this subwoofer tube, is to redirect energy not contain it, as the end is open its walls really don't have to be as thick as I've made them, because they don't have to hold in any energy, they merely direct it through. 
+You see the whole point of this subwoofer tube, is to redirect energy, not contain it, as the end is open, its walls really don't have to be as thick as I've made them, because they don't have to hold in any energy, they merely direct it through. 
 
 With this in mind for the second attempt, I've decided to remove the need for plaster of Paris for the subwoffer port entirely and instead have gone with 4mm 3D printed boundaries, which saves just enough space for the now much wider and longer Port. 
 
@@ -136,53 +137,53 @@ Though if you do want to print a set of these yourself do note that it's still i
 
 ### [Glueing all the Pieces Together ](https://youtu.be/XEspOD1NHr0?t=566)
 
-Once everything's successfully printed, build platforms one and two can be glued together, first utilizing a couple of H Clips, to make sure that they're nice and tight.  
+Once everything's successfully printed, build platforms one and two can be glued together, first utilizing a couple of **H Clips**, to make sure that they're nice and tight.  
 As you can see, the glue has a tendency to squeeze all over the place but it's easy enough to wipe away any excess.
 
-Now you'll have probably noticed that these pieces have many small discs on them. 
+Now you'll have probably noticed that these pieces **have many small discs on them**. 
 
 These are actually centering guides which line up with the subsequent pieces making them easy to position accurately. Here I'm adding the bottom part of the subwoofers chamber and if we flip it over we can see that there are four holes beneath it.  
-These are for 2 mm diameter self-tapping screws, which allow us to clamp the pieces together. 
+These are for **2 mm diameter self-tapping screws**, which allow us to clamp the pieces together. 
 
 From here, the internal air guides can now be added starting with piece **A**.  
-This just needs a thin bead of glue along the bottom as well as any vertical seams it touches. The guides help a lot in positioning it correctly, after which the screws take over.
+This just needs a **thin bead of glue along the bottom as well as any vertical seams** it touches. The guides help a lot in positioning it correctly, after which **the screws take over**.
 
-It's important to ensure adequate glue here for a tight seam, keeping in mind that any spillover can be easily wiped away. 
+It's important to ensure adequate glue here for a tight seam, keeping in mind that **any spillover can be easily wiped away**. 
 
 This process needs to be continued with all of the internal air guides, which completes the subwofer tuning Port, allowing us to move on to the midtone chamber. 
 
 
 ### [Cable Wiring](https://youtu.be/XEspOD1NHr0?t=637)
 
-As you can see this is the only section that is carried over the hollow forming technique, as it's proven so effective for mid-tone use. For a nice strong length this final platform can get extra support from the subwoofer exit port, which as you can see has a wiring guide in its top half. 
+As you can see this is the only section that is carried over the hollow forming technique, as it's proven so effective for mid-tone use. For a nice strong length this final platform can get extra support from the subwoofer exit port, which as you can see **has a wiring guide in its top half**. 
 
-There are a total of four pairs of wires that need to be rooted through this. A pair for the top chamber, A pair for the middle Chamber and two pairs for the lowest subwoofer chamber.  
-The holes for these, of course, all need to be sealed up so that no air can pass through.
+There are **a total of four pairs of wires** that need to be rooted through this. **A pair for the top chamber**, **a pair for the middle Chamber** and **two pairs for the lowest subwoofer chamber**.  
+The holes for these, of course, **all need to be sealed up so that no air can pass through**.
 
 
 ### [Setup of the Midtone Chamber](https://youtu.be/XEspOD1NHr0?t=670)
 
 With that done the hollow cavity below the midtone chamber can now be covered, ready for the PVA and plaster of Paris mix, in just a moment. 
 
-But before we do that, we might as well add the chambers dampening materials at this stage, while we have easy access to it. Again this is just a layer of 15 mm thick automotive acoustic foam, followed by a folded layer of cotton towel and then some sheep's wool. 
+But before we do that, we might as well **add the chambers dampening materials** at this stage, while we have easy access to it. Again this is just a layer of **15 mm thick automotive acoustic foam**, followed by a **folded layer of cotton towel** and then **some sheep's wool**. 
 
 > If you can't find any sheep's wool by the way it's worth noting that loosened rock wall can also be used here, which is something that you can find in most hardware stores. 
 
 
 ### [Closing the Speakers](https://youtu.be/XEspOD1NHr0?t=703)
 
-All this being done, means that we can finally cap the unit off with its top lids, as well as the brackets for the speakers themselves. 
+All this being done, means that we can finally cap the unit off with **its top lids**, as well as the **brackets for the speakers** themselves. 
 
 It's worth noting that these being separate is intentional, as it means that the design can be easily adapted to different speaker drivers.
 
 
 ### [Filling the Chamber](https://youtu.be/XEspOD1NHr0?t=718)
 
-So to finish things off it's time to make what will hopefully be our last batch of PVA and plaster of Paris. 
+So to finish things off it's time to make what will hopefully be our last batch of **PVA and plaster of Paris**. 
 
 > While plaster of Paris is generally safe, it does need to be respected as it can set quickly and generate some heat while doing so. Make sure you read the safety notes in the video's description before attempting to use it.
 
-The quantity required for our pour is **750 mL of water** that's already been mixed with PVA, at a ratio of about **10 to 20%**. This can be followed with **1 kg** of plaster of Paris powder, which needs to be mixed in gradually. 
+The quantity required for our pour is **750 mL of water** that's already been **mixed with PVA**, at a **ratio of about 10 to 20%**. This can be followed with **1 kg** of plaster of Paris powder, which needs to be mixed in gradually. 
 
 Once a smooth consistency has been achieved, it can be poured into the chamber at the back, which completely surrounds the midtone chamber with a solid 16 mm thick wall. 
 
@@ -205,7 +206,7 @@ Some plastic primer can be used here first, as it gives a good key for the top c
 
 Now if you look closely at the sides of mine you'll see that I've masked them off. What's underneath some beautiful wood veneer.
 
-I added this before the painting process by spreading around a load of glue and sticking the veneer on top. Veneer for those who don't know is a very slim slice of real Hardwood. Mine being Rosewood.  
+I added this before the painting process by spreading around a load of glue and **sticking the veneer on top**. Veneer for those who don't know is a very slim slice of real Hardwood. Mine being **Rosewood**.  
 It gives the enclosure a really high-end appearance, particularly when it's oiled as it brings out the richness of the wood.
 
 Lovely!
@@ -215,15 +216,15 @@ The rapid transformation of how this looks, is really quite remarkable and it's 
 
 ### [Speaker Drivers Mounting](https://youtu.be/XEspOD1NHr0?t=856)
 
-To prepare for the mounting of the speaker drivers the holes for them need some little M3 threaded inserts, which are for screwing them in place.
+To prepare for the mounting of the speaker drivers the holes for them need some little **M3 threaded inserts**, which are for screwing them in place.
 
-when wiring them up it's worth noting that the polarity of each speaker needs to be correct with the red wires going to the positive terminals. 
+When wiring them up it's worth noting that the **polarity of each speaker** needs to be correct with the **red wires going to the positive terminals**. 
 
-One often overlooked but very vital addition is to add a rim of blue tack around the edge before the driver gets screwed in place, as this makes an airtight seal for it. 
+One often overlooked but very vital addition is to **add a rim of blue tack around the edge** before the driver gets screwed in place, as this makes an airtight seal for it. 
 
 As you can see they are slightly proud rather than flush, so to make them aesthetically more pleasing, they can be tied together visually with a little bracket. 
 
-very nice!
+Very nice!
 
 
 ### [Midtone Driver](https://youtu.be/XEspOD1NHr0?t=892)
@@ -231,15 +232,19 @@ very nice!
 So with the two subwoofer drivers now installed, it's time to tackle the midtone driver. 
 
 Choosing a suitable one is somewhat daunting as there are literally hundreds of different models available, each with wildly varying performance characteristics.  
-In an effort to select the best possible driver for this project I spent literally days testing various drivers, ultimately settling [on this one](https://www.parts-express.com/Tang-Band-W3-1364SA-3-Bamboo-Cone-Driver-264-844), which is again a Tang Band unit. 
+In an effort to select the best possible driver for this project I spent literally days testing various drivers, ultimately settling [on this one](https://www.tb-speaker.com/products/w3-1364sa), which is again a Tang Band unit. 
+
+![W3-1364SA 3" Paper Full Range](https://www.tb-speaker.com/uploads/images/cache/6da1b17fb1e663b6f76d84b135beace8-224-224-0-1-1.png)
 
 It's got a nice smooth character to its sound output with plenty of mid-range detail and it looks really smart to boot. An amazing feature of this driver, is that it can actually cover high frequencies as well, so it can pull double duty as a tweeter, which is great for those on a tighter budget. 
 
 
 ### [Optional High Frequency Driver](https://youtu.be/XEspOD1NHr0?t=934)
 
-For those who want the absolute best high frequency detail however, the design does cater for dedicated tweeters. Though they'll only likely be appreciated by the most demanding of listeners.  
+For those who want the absolute best high frequency detail however, the design does cater for [dedicated tweeters](https://sbacoustics.com/product/sb26stcn-c000-4/). Though they'll only likely be appreciated by the most demanding of listeners.  
 So it's your call whether to include one or not as the speaker can be printed without the hole. 
+
+![SB26STCN-C000-4 / Fabric](https://sbacoustics.com/wp-content/uploads/2022/11/SB26STCN-C000-4-main-photo-product.jpg)
 
 Either way with all of the drivers added it looks really elegant and it's easy to forget that it is in fact 3D printed.
 
@@ -264,9 +269,11 @@ To describe the effect is like the sound gets projected forward slightly with th
 
 Now to get the very best possible sound from this thing, we're going to need some help from our secret ingredient: A digital signal processor.
 
+![ADAU1701](https://ae01.alicdn.com/kf/Sa61086175f97411c95b596c4d91c013cc.jpg)
+
 Shockingly these are really cheap to buy now and can provide four fully programmable sound outputs, allowing it to function as an advanced crossover.
 
-To make use of it we can simply mount it into a little 3D printed box, along with a voltage regulator for power. It's going to get its audio signal from a phono socket, that can be inserted here, alongside a DC Barrel plug.
+To make use of it we can simply mount it into a little 3D printed box, along with **a voltage regulator for power**. It's going to get its audio signal from a phono socket, that can be inserted here, alongside a **DC Barrel plug**.
 
 This essentially takes the audio signal from the phone socket and internally splits it up into four separate signals with specific processing for each. 
 
@@ -275,15 +282,14 @@ This essentially takes the audio signal from the phone socket and internally spl
 
 As the board can't do any amplification though it needs to send these signals to a [4 channel amplifier](https://ebay.us/ZWlpBh).
 
-The one I have here is a class AB type which uses slightly more power than class D amplifiers but
-it has a very low level of output hiss, which can be at annoying levels on so many other amps. 
+The one I have here is a **class AB type** which uses slightly more power than class D amplifiers but it has a very low level of output hiss, which can be at annoying levels on so many other amps. 
 
 There is of course a ready-made chamber for it on the back of the speaker and each driver wire pair needs to be hooked up to it, being careful of polarity.
 
 
 ### [Cooling](https://youtu.be/XEspOD1NHr0?t=1065)
 
-To Aid in cooling a little shroud can be fitted on top that features a slow-moving fan.
+To Aid in cooling a little shroud can be fitted on top that features **a slow-moving fan**.
 
 The amp can run passively, but when listening to loud content for an extended period of time, it's likely to get quite hot and the tiny amount of of air movement that the fan provides, is all that's required to keep it nice and cool, so is well worth it. 
 
@@ -309,7 +315,7 @@ After giving them power, the first thing we need to do is program the signal pro
 
 ### [Sigma Studio Software](https://youtu.be/XEspOD1NHr0?t=1118)
 
-This can be done with a free piece of software called **Sigma Studio**, which has loads of different filters and algorithms. I've spent many hours making a profile that gets the most from this design. And you can find it with the Project's 3D printable files.  
+This can be done with a free piece of software called [SigmaStudio](https://www.analog.com/en/resources/evaluation-hardware-and-software/software/ss_sigst_02.html), which has loads of different filters and algorithms. I've spent many hours making a profile that gets the most from this design. And you can find it with the Project's 3D printable files.  
 [Link in the description](https://payhip.com/b/dhJrS).
 
 
@@ -317,6 +323,8 @@ This can be done with a free piece of software called **Sigma Studio**, which ha
 
 To upload it to the DSP we can simply use a [cheap USB programmer](https://ebay.us/i8U1fC). This has three pins: **GND**, **SCL** and **SDA**, that corresponds to ones labeled on the DSP.  
 So merely need to be connected together.
+
+![USBi](https://ae01.alicdn.com/kf/S30bc4658ac2d485994ccc0a8917fdb98p.jpg)
 
 This allows the profile to be compiled and tested live. 
 
